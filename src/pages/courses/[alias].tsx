@@ -21,8 +21,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
       firstCategory,
     });
 
+  const paths =  menu.flatMap(item => item.pages.map(page => '/courses/' + page.alias));
+
   return {
-    paths: menu.flatMap(item => item.pages.map(page => '/courses/' + page.alias)),
+    paths,
     fallback: true,
   };
 };
