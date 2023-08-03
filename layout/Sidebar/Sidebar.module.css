@@ -16,3 +16,14 @@
 	font-size: 18px;
 	line-height: 29px;
 }
+
+.sidebar {
+	display: grid;
+	gap: 20px;
+	align-content: start;
+
+}
+
+.logo {
+	margin-top: 34px;
+}

@@ -15,14 +15,13 @@
 	color: var(--primary);
 }
 
-.firstLevel svg{
+.firstLevel svg {
 	width: 24px;
 	height: 24px;
-
 }
 
 .firstLevelActive svg,
-.firstLevel:hover svg{
+.firstLevel:hover svg {
 	fill: var(--primary);
 }
 
@@ -31,6 +30,14 @@
 	margin-left: 12px;
 	padding-left: 32px;
 	border-left: 1px solid #DFDFDF;
+}
+
+.secondLevelBlock {
+	display: none;
+}
+
+.secondLevelBlockOpen {
+	display: block;
 }
 
 .secondLevelBlockOpen:last-child {
@@ -47,7 +54,6 @@
 	text-transform: uppercase;
 
 	cursor: pointer;
-
 }
 
 .thirdLevel {
